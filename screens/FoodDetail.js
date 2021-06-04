@@ -263,7 +263,12 @@ const FoodDetail = ({ navigation }) => {
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 0 }}
               >
-                <Text style={{ color: COLORS.white, ...FONTS.h2 }}>Order</Text>
+                <TouchableOpacity
+                
+                 style={{ color: COLORS.white, ...FONTS.h2 }}
+                 onPress={() => navigation.navigate("OrderPlaced")}
+                ><Text>Order </Text>
+                </TouchableOpacity>
               </LinearGradient>
             </TouchableOpacity>
           </View>

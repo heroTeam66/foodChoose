@@ -2,7 +2,7 @@ import React from "react";
 import {Image,TouchableOpacity} from 'react-native';
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
-import { Onboarding, FoodDetail } from "./screens/";
+import { Onboarding, FoodDetail, OrderPlaced } from "./screens/";
 import Tabs from "./navigation/tabs";
 import { icons, COLORS, SIZES } from './constants';
 import { useFonts } from 'expo-font';
@@ -65,7 +65,10 @@ const App = () => {
                     component={FoodDetail}
                     options={{ headerShown: false }}
                 />
-
+                < Stack.Screen
+                    name="OrderPlaced"
+                    component={OrderPlaced}
+/>
                 < Stack.Screen
                     name="Home"
                     component={Tabs}
