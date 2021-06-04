@@ -6,7 +6,7 @@ import { Onboarding, FoodDetail } from "./screens/";
 import Tabs from "./navigation/tabs";
 import { icons, COLORS, SIZES } from './constants';
 import { useFonts } from 'expo-font';
-
+// import AppNavigator from "./navigation/AppNavigator"
 const theme = {
     ...DefaultTheme,
     colors: {
@@ -29,6 +29,7 @@ const App = () => {
     }
     return (
         <NavigationContainer theme={theme}>
+         {/* <AppNavigator/> */}
             <Stack.Navigator
                 initialRouteName={'Onboarding'}
             >
@@ -108,6 +109,7 @@ const App = () => {
 
 
             </Stack.Navigator>
+           
         </NavigationContainer >
     );
 };
