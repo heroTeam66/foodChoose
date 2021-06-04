@@ -1,4 +1,4 @@
-#Project : foodChoose
+# Project : foodChoose
 
 
 3 June 2021 – 4 June 2021
@@ -22,3 +22,16 @@ user click on the order button it will go to
 another page showing that order in confirmed.
 
 Technology: React Native
+
+Code Link:
+
+https://github.com/heroTeam66/foodChoose
+
+Live Link :
+
+https://expo.io/@shahedzaman/foodChoose?fbclid=IwAR16deHxhjZQaOq_djpWL6exm0NmTe3BanlK2JhOQ6o11Vc9Je1_0-w1abw
+
+
+Demo Video Link:
+
+https://drive.google.com/file/d/1Fhh2jxEa0lAtoffAAuWMv7BJkNCC7CBR/view?fbclid=IwAR1Asy2hd5090xFU2t5XnzjFo4naNDG53bmHEYxj9ohGPrzjH8DnSDopaYw
